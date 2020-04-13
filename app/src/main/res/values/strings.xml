@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RSCorona</string>
+    <string name="hospital_name">Nama Rumah Sakit</string>
+    <string name="hospital_address">Alamat :  \nTelepon :  \nFAX : </string>
+    <string name="hospital_detail">Detail</string>
+    <string name="hospital_identity">Hospital Identity</string>
+    <string name="title_identity">Pengelola \nDidirikan \nStatus \nAlamat \nTelepon \nFAX</string>
+    <string name="content_identity">Content value</string>
+    <string name="hospital_overview">Hospital Overview</string>
+    <string name="content_overview">Content value</string>
+    <string name="profile">profile</string>
+    <string name="my_name">Rafli Rasyidin</string>
+    <string name="my_email">raflirasyidin20@gmail.com</string>
+</resources>
