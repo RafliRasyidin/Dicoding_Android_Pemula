@@ -5,5 +5,6 @@ data class Hospital (
     var address: String = "",
     var photo: String = "",
     var overview: String = "",
-    var identity: String = ""
+    var identity: String = "",
+    var phone: String = ""
     )
