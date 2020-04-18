@@ -12,11 +12,12 @@ object HospitalData {
                     "Rumah Sakit Publik\n" + //status
                     "Jl. Baru Sunter Permai Raya\n" +
                     "(021) 650 6559\n" +
-                    "(021) 640 1411"
+                    "(021) 640 1411",
+            "0216506559"
         ),
         arrayOf(
             "RSPAD Gatot Soebroto",
-            "Jl. Abdul Rahman Saleh Raya No.24, Kec. Senen \nTLP:(021)3441008 \nFAX:-",
+            "Jl. Abdul Rahman Saleh Raya No.24, Kec. Senen \nTLP:0213441008 \nFAX:-",
             "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQTEhUTExMWFhUXGCAXGRgYGBsbHhofGhsdHx0dGRofHSghGholGxgYIjEiJSktLi4uGB8zODMtNygtLisBCgoKDg0OGhAQGi0lICUtLS0vLy8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAFBgMEAAIHAQj/xABJEAABAwIDBAgDBQYDBQgDAAABAgMRACEEEjEFBkFREyIyYXGBkaGxwdEHQlKS8BQjYoLh8VNyshYzY6LSFSRDc4OTwsMXJTT/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAtEQACAgEDAwMCBQUAAAAAAAAAAQIRIQMSMQRBURMiYXGhFIGR0eEFMkJSsf/aAAwDAQACEQMRAD8AT2pAkiJFiDMzz5XHHnV7C7QyCIOaQCZkCe+LX+FSLaaJV0bdgdZyhQ4QCbGeVEU4FCgkdRRESTIXfSAIBV48jXmTlHuiUgdinpTmhQXaTntFrHnry491e4feB5uW0OGDbIdCOBHAGwMiNIq84ykLKRE8QrtJBkg5Y6x076CY3ZoT1xKb8TaY09p848FBx4Bjds3a3RozJCCVahXP1v6TWO41t1WdaBmA1QkiYnUzBvM+IpVwjWVUqIEG41jjqLd0UYxG0WuqL5VgggXIERw4g3/vfOUZLCbHZfONaOVCV5SntEm5JNo5DW03v52Ey2RmKyDoRNu8n150s4AgEOFB5AWkHUkQNOOvGmHBLCwFFJCYnMUm3fyixrLVi0/4QJlwO3JUDzgHQaXnuovsjaTrU9GqUjVtWn8t7Hw9KB4bBKKkkqBSJAXqnTQmIiQJtQ9vaq2nYVcAyR4jSeVdOh6yxF8dh2da2Tt9p7qg5F/gV/8AE6K+NFwquIjaKSo3lMmOetqbth73rSAHP3qOc9cef3vO/fXphZ0RKpr2h+Ax7bqczagoe47iNQaupXTA3rK8Fe0AZWVlZQBlZWVXxGNQgwpQzHRIuo+CRc+lAFisocvHLPZRlHNevkgH4kGoVoKu2oq7jZP5RYjxmgC85jUCQDmI4Jv6nRPmRUK8Us6AJHfc/Qe9QKWEjgAPID6ULxW8DKdFZz/Df30pgFVAHWVH+K/oNB5CvFOcTalPF7zLPZCUD8x+ntQXFbSUvtKKvE29NB6UAOuJ220j72Y8k399Peg+M3mV9xIT3kyfTQe9KjmM76zGjKhtYPan2oFYQxW01r7SlK8Tb009qpOYuKHdIo2AJPcKtYfZrrmgjnmkf19qZNkmMSUhCpnOmfh9aoKfNNg2OFNtoWScnEWn9QKtYXZKEGUpv33jwmgKE1nAOudlCvEiB6m1HNh7FW0orUoXEQL8QZnyphcyoupQT4mKoYnbbSJiVew9TQFA9WwwLJmO+vagXvRfRA/MfesowYvQg3dHMmsQUEEEKQD2bR76HS/0qZG0DIgxeRrCbC2sx399BF4tJixPOT+ta9aXnMJSBPfHLU8q5fT8mw37RxS1paUIznMFK8IFhMkdrv1oap5MlLiASb9oEzbv5xPH0sAxGIIgGbWF5jnHnXn7VxyiSCDafnUR0KWBhjEJ6MgoKlIuSIywYtMaifh31CjELWqBbgByHC9VWNp5RAJ4EjhYDS5/XKiuGx7RUITBEzIgWIgGDpE9+lNxa5QiVrGus9oEAmDOvr+uNNDG1yUFQ1AiUgGZ5yJifS+lCdtMlaQpu6Nco+4UySI1yiZv71FgcM4AlbYJAJmL3jQpmZiOHGubUhGUbdDGfYjy1AJQsXkFSjHfJ5DhzFHH91msQkuJSG1adReZPja396B7FKFNda3fobix9ZHCKt7H3iShwEgKSJFrEydZ46aHme6l0rnuaoqsC5tHZa8OqHAYmxixq5tJ0NO5RplSZH8SQfnXR2cThsWnL1VSLoUIPpx8RQPeLclLpLjaihcAc0mAAJHCwAt6GvUQq8C/s7a6kKCkrKVfiHzHEeNqe9j73pVCX4Sfxjs/zD7vjceFcqxOzXGXAh1BTeJuQeUHvq5j8T0L7jemVUUCs7S87MKSZBFiDbyrTpzzPrXJcBvItsQhwpGsWI8YOlEkb3O/4nqlP0pjs6UMSedejFq51ztG97v4kHxT9CKlG+DnJv0P/VQA8PthZBUVGOGYgegrdbsXJ8/60gvb5riAEJPO59AT9aFObXU8oJUorUTbMbemg8hQFj9it4WUaKznki/vp70Exu9azZACB39ZX0HvSQ7tMyQbeFRjFzToVh/G7SKz11KUf4vkNBVNeK76uY7Zq3FJKE2KBJNuHfUmH3cV98gCOEm/takGSph0Z23TxSAR61SQwtZhIJPdTlgtkJQCAJnWePlpVpYQ2OspKRysPamMU2d3nVdohPn8qNt7FTkQ2olSUT3TJm9SP7baT2ZV7D3v7UMxO8i4JQkADUgTHmfpQIYGMElIskJHpUT2OZRqsHuTf4Ul4nbCl9pRV4mfbhVNzHnnQFjfi95UJnKjTieHkPrQDHb3rVZJP8vVH1rzYADvTIN5bke4+Yqs2ykaD5fCmkS2U3Mc8vQRPHj6mof2FxRlSieN7/GjzOCWrsoPpA9dKvMbvuHtEJ9z7W96qkicsto2YggHLqJrKLYfCFKUp1gATzgVlQUcHfwSXcxBUgiO0LK5xckXE/KhLyFIVCuFbs4tQMkk2KQb6qHfx19/Gt8TiMyQDqLTxtb4R32rFKSwUVlESb+tbttKJ6oUfAE1EpvS4v8Aq9FWHliEtQYiwVF+cE/qe+nJ0MgZYCoE3PDvq/h9nc7K42uO8jjbNpyBqF7ELUoFwBKjJHUSONxb53q1s9txRUFBRChMgcQeXPWsZylVgGNmYF9lQzpKQYWkSJKVAiTe0Ag3InNAmswDi14pQEpGaMo1Ckjs/wAt9ToKgYwbh7RmVTAKcw4CTaCQo3pnwDKW+0rISUqykyIkzmF5sReLedc8pxb+RpFpxpXZSkKBEyJSCLZdbXzTadD30qYha0K6yFNybBQI9JroKN33FtpWlYcTJlLax1IHVUmCAVaAz30Zc3SQUFBOYc1drSDJGvDu7qvSU4SvbgdHMtnY1xSkpQRJPGm/Zm+DrZKHYXlMGdbWsrX1mrDW5QYdQ4i8KvJ0TYwOBgjW2tIW2+kbxDuZKk5nFlMgiQVEgjmIjSu7kng65hto4fEiAQFH7ioB8uB8qV95tzg4tTiFlK1GTNwT8RSds19xbgbBgzy76YcDvWtBKFnOEkpM62MWOvrNAcgdjYr7aSlTRUTIJEeoihiti4lOrT3kFH4V0jDbfw6hJUU9xBPuARVpO1cOdHR5g/SnYnFHKlYR8fceHilX0qfZza88LzhOU6gi9o+NdSGPYP8A4qPzAfGsU60dHEH+YfWmFHJVPrzZUgmdAAZ9Kadl7HeGIQ5kytpym5gnqCbazM0zqbZQc8oHfI+NRYnbrTdrqMCw7wIoCik1umkrK3FEySYFh58T7Ucwmy20XShKY4xf1pcxG9qjISAjhpJ97e1DcRtda+0onxPy0oGPDmPZRqsE8k399KoYjeNI7CPNR+Q+tLGMRDbTgPbBnyNU85PM0CbGM7XddVkSuJ5W+F/egjmMVx1q9sHCO9KlRQoJEySI1B563ipxuw4okqWlIJ4SaAALmINFNitlTT4IMKRKTzy5pjzij2H3YaAGYFXt8L+9FcNgUIACEhIGkD9caAo5zh9lPudlpUcyIHqaJ4bc51R660pHGBJ8uFPgSK8W+lPaIT4mKYUBdj7uIYVmSpSlEReIvHADuFEmdmto7KEjyv661UxW8mHRYuAnkm9Bsdv6hJIQ0on+K3tSAbktCtiANYHjXM8XvviV2QAnwFCX8biXe0tR8/0aeSbR1pW0mRbpUfmFe1x79hWblV/OsoAVMK//ADAJOqRy5xPp3VWUtKlWFjw5E8JOonnzqyrCXlKovPPSBIjjc2PI3qVjDtJJupRzCCUxAg2AzEEkxrXPaWSj1GGQEgyJniL2iRrH968XgypQyFMGBlnQxqb1E5CVLAVpaCe6DoACQSR8qqFc2Gnfx+lGXkYSLqi3lUlRvM+Hw4CRWzGNtKVKbUCDAJym5uBwjkamwICmxKiLwqCOZy6mUkkHu499aPbKUglYUCjXiSJ/Fa0ExOnrWba4YBnB7YKkHOgKIMBQgEaARzvPr30ew+KQ8nonkquMiiRF/GPA870qbPUntEhBHCxBE+pPcNPKKb8Jshx0ApAtEGSEm/G0gxPA8K4tWCvGCkTYdBwyk5XFpM5cySUiP4j2YEHXmOdX0/aYph4tYhGYD7wsfGwg2uLCxobvxsl79kZT0alEOFSsoK4ACgCSBpBF4pCfdLmTNchITPgSBPfFvKu3p9OaScneBNn0Bsfe3C4kDI6AT91UA/Q+tXdp7PbeQUrTIP6tXz7u7s7pcQECR1VGR3J+tXdjb64zDQAsrQPuqv6cq6aCzpX+yLbTwebKgeIJkG40m4Nq51t3ZGJZcWpTSilSlKCk3FyTrwPcb047J+0lh2EvJLaueo/p70yofaeTKFJWkjgQfUUcCas5bsvCFxtRk5wCYm4ibH0oelx+SIEjUX+tdcRsZj/Bb/In6VGd3cPf9yi9rJimKjlX7S9MBM8RE3HhP6irux1uurKSCkATPmBHvXRlbt4eQeiTIEAgm3vXjG77LfYTltHaPOeJ7qB0cwxOOUhZQpVxRE4mcQ2P/Jt4obpwXurh+kKylRJ166vrRjDYRCOykCwExcwABJ1NgKAoS8bsZ5b7hQ2rJJMxHpOvlVzCborVdS8gPCJPnpFOQIAk2HfQ/F7xYZvtPJnkDJ9qBUY1sJvo0NqlYRMT3mbxFW29nNpghCQRpAFAMTvs2BmQhSgTAJ6ooW9vc+vsJSnyn3NMdj5AqB/Hto7S0jz+VISMW+6pIW4qCQInv5Co8ZgIcUCdPpQKxtxW9jCdCVeA+dDFb4qcUENNgE8zNABhkjhV7ZaQHUeMetqYWV8bt/GKJTmKYMdURQtxp1d1rJ8STTFjcAsurCUKImbC1766Vs1u+8rUBPifpNAgFgtngLSSZhQ+NE9u4BKXeyLpB+XyoyxuufvOeg+Z+lF8TshtxQKxJAjUj4UBQgZAOFTMYZauyhSvBJNPzGzG09ltI8hPrrVtLdAhCGxX/wDCPqn61ldAyVlFipHzk6s9XrxzMG3KdZtP0qVTCykuIAVHaypNpA4HXXhWuKQVJzBBSJGa8gwCOFtZFaIcKEwkqTmsQCfTl36muW8YNDVttTkrWrKmQCVXMgaAazA+prZ3AhKzmzAcCR/W+vDlUq30ElZCiom54d9uB0qsrE5pSbfh/h1t/lmmmwLOCLWc55gDtg854cpjw1vpVx/EZcyQpSkKSRfvJkToDFxwM0LwikgyrQHKbSCOOn6vajGCdEZICQsTIgxpqOBBBvYkcKiarIyLZuAkwTx4g8xB8Na6fujsgpAUXEkxJROnkdfLnShsjBJUlK+MQUyBeQfMcas7W2mUlAbEZkqEW/lUCCRKTMHvIrlb9We0pKjtDbHVANCtq7tYd/8A3jSVH8UQr8wvXMxvJi8GUJLxUFJCoVfX+1H9m/aaDZ5rzQfkfrXpLAi5hdx0MPF1pauwpOVUGJ4hQv8AGua7R3UxjAOdorA+831x6DrDzArsGC3swrx6roST91XVPvY1ecAIkEEd1NMmjgu7uHDmLaQRIKiCPBJPyqojFOMrJbWpHWMQY413R/ZrSlhwtpLidFQMwtGuuhpJ2x9naVXZdKTrlWMw9RBHoadhQI2Xv1i4IJSrKJJgTHfVtv7SHeIR+U1W2VuTikFeYoAIjqq11kGwtVp7c9waYdtXgpIigCdH2kr4oR6KHzqwz9oZVYMhR7iRQZO6GInrYVBH8K0j/wCyiWyt11tkq6HKY/GDxB/EROtIZpiPtIJ7OHE96/lFQ7W3sxJcaQhSW0rbaUcoEy4hJNz3k0FVunii4qWFAFRjrJve33qYnNzHlraUVoQEtNJOpMtpSDpbhzpoQA230nTrQt5aspFiTxAPzqh0UCui43c1t59Ty3F9aDlTAFgBqQTwohhd18Mj/wAIK/zEq9iYpioTGx/3FCgJIeKfZVWMDgXliUtLHiI9zFdBYwqUCEJSkckgAegqUIoAUsHsJ6QTlTBm5n4CKK4jYYWsrKiJiwHIRr5UXW4lPaIHiQKovbdw6dXU+V/hQOiNrYTQ+7PiT/arzODQnspSPAAUFxG+DCeyFK8gPiaGYjfo/cbT5kn4RRYDqG62Ca55tLenFIjMUpzCRlA+c0FxG8Lqu04o+Kj8KLEdadxLaO0tCfFQFDsRvJhUG7oJ5JBNcmXtLvo1hGUuYFx0XUhUT4FJ+CqVsBwf3zZHZQpXiQPrQ5/fdf3UIHjJ+lc+exZTqk/rlXqFOqSVpT1ZjX9c6G/IhzVvhiJ7Q/KPpWUNY2AvKM+bNxyrYjyl0Gsrn/FaX+wU/Bzorva36tapi5mF4kceP0iql5k1M00Ve59BNaUiwjhMKXCkZZJ1IsSI05Ta08aprwS0qIAJ8viOfdV7ZGZDqVlKlgG4Hha/C/zos0w647kCggLcjMUyAL9ew0y5NL6d8ZbmpYCheYZNxcd1MmzWUSBedJjlEKI0mZ5Wpm3c3VS6pZdfaJIyAJUCeJzkSMp0EcZPjT1g90MIhMBsG5IUdRPCeIiBBscsxJNEoymh1QsYHYDvRS2U5iNeE84IhQiTBilR/YOMQ+hx5peRIg5QFCSIKupMZj1jPM12fBYQNoCBcJEA9wFqkUgU9LRUM9wZw/7SHIxaEDgwn/UulUYuvoraGy2nRDrSF/50g/EUs7T3DwjuiFII0yKiPAGQPCtxHPdjYRC8O+6e02jN4ax8KrYLeB5rsOKT4H5U4t7lLQ26hJSczZSCRfhoeEwfWlXaO6DzOYrSojVJR1hAjUC4NIA9svf3EkwptLsCT9027xb2pgwW++HcsoKQe8SPUUg7vYV/rhpJkBQzEdVVtAYiT5VKrZbyClK+jZJvBVJ0v2AY9aVgdRY2vh1Czzf5h8KsDHtf4qPzJ+tJLG57q0x+0JBi4ANxoJva/EVIn7PsRH/9CCeBIV8Jp2/AYHZOKbOi0fmH1rYOJP3k+opEVuFi/wDHaP5gB5Qa8/2DxgN3WD+aZ53RTt+AwPL5AEyKpYvbDDcZ3UC0xN/QUmr3HxukMHkZPv1flWm3d3cSkNlTSXAGkpUUGYKcwUQDCjwiPSk2/AYGB/fjCp0UpR7kkf6ooe/9oafuNealfID50jbbJKhmTkWO7UDu4GqCcI4pKSnU2jynjQpCH5e+GKcbW43kSlFjCZN/E99An968QvtOq8jHwqXYOHcbwmJSpCllRTATfWfhHCh+C3RxSj/uVQeZSn4mf707CyJ3axOqifOaLbwNhtthxIstIPqAfnWzO4D8yS2B/Eo/AJI96Zdp7shzDsoccy9Cm5Smc0JAGptpTFk566+qYAm01CpxZE6D9elNWzWMJnBcLs3AOgMa8JJtzrfFKw+c5ocbSQUXOirwe/XX51m9ShEW8JD2HwziVQQnrT3BMzyHGgQ2OorAGZyTohKlQAeJGlPewcepwpBw6UNXKCfWx1k34DSm9DVWsjRyHC7qOntNOi4GkTYc9L0dwO7zww6m0CEqVm6y1AmwGiYH3eM10Po62S3ToDnGH3IeURnUlI7pJHlztzo9gt2m8OkfvFkgyL5ZPDS5AvaYudaa8tQY4AIJNjoPlwt41lrQuDQLAEc2egkkurvftLOvfOlZVJ5DiiSAmPE15XAlOv7V9/3HZyLZ6euIAIgkZjAGUZjJi9h500bC3dexiHHkAFsOJbM6lRjsiIsVJm/tSikXr6P+znZ6WNn4dKblaelURFy51teIAIT/AC13uFlHM3N2caygj9kWeBKYXI0N0qn+x7iaGKC2SOkTkE3KpTHK6rQT4iu/KrDB/Xypekgs+fA626rKQFGxsSOHG3nV9jHLYMIcdGUaJcPw+ortDuyWFGSy3P4siQfzRNLuL3DwyySQQVaQpQJ9760ODXDEJ2E3xxA0ezdziJ07wBRFn7QHRGfDpXzyKI9AZHvUW0dwlJUAlcXgGAToTwFzM2qu5uC+gZ86VAKGZMQY4kC9vqaPcgsYcPv0woddDrfikH/STV5neHDL7LyPBRyn0VFIGJ3ZxaFyhqQZjKpIJA8TY+lCcS28jN0jToItOUSPEgEcuPGjfLugs7Al5KtCD3iq20XghtS9QBwE/wB65Xhdn4ogdEhUm9hl19Aec1fThsacuHWogrsEKckHjeJsAL1Sk32BsvIxGMZR0nQtqbJJ6h6wSTrlHde00K2tjErcS5IIImDw7vEH38anxuyXsOj97iEkA2bTmPdOgi83il/FYZalNwCZTGkaE35aXmk74JGTB7eynMMxUrU8IGggCmHDb0PCxCFR3GR6G4HypMwaMOiErLpVxMQiNerBnjqfamjc/AYR1bjagl7KYRniSI7wFEiIPClGNDRce2vipLhyZEhIMaGdDEn41Kne50o/3aMwIBkqHOZBEjSii92cLIhhHl/StH938GkQppIzcZPnx+NXT8jbxkrYbelSwUhr96BOvVjiRxMTp71V2jvMtHRoUzKinMYkXKlAgJIn7s+dFcPsDBC/RJJjWVWBjQg2BIFu4VunYOFcIGQHKLDMuyZJH3uZN6M1yTafcUcbtFD3VVhpm8KMHXW405+lbJ2owBlUylHDsjzkRTjtjAYdphbigkZUmFLKlRPeonia5W+vDKWpSsUvKTKUoSMwGgJJEG14E+VQ013KbGH/ALbfahwtHoCYzACPGxOXjqBVTaO1g6QQ4ttSF2ymBBgpnnOnIUHx73RpAQ6VjKIJBBgzYg8dKEPYyQm95J+Q9qltskd1becWQkqgDU2F411qbaO8PU6NhIUIEr4TrYm1onWkJpJV1lqIBsBPP5WNEMGwBdKsySIKbHvN+AFr1EbjywCv+1DuQsvJbcQBA4HQxBgAkeR8aFtspnOT1MoMA6ngDx0CfXhVUQbIQVX7/aP1ephsx509RtalBUFISqb3k8hoL1q3YUe/9tYnNnzk3tqQI5crU4f7drS2iWJVF5XAkfy6UuYfdnF5MxacBJMAkaC8wT42NYdjYhb37PlSlwALhSrEHQiAeNqeVwIOL34xBultlItdSiRfvBFQI3nxjqsqXm0kzZKBPvNQ4fcTEkytxmeIGYz/AKaNbE3BcQ4HDiRInq9FbSNc458qr3lWJ20dt48BZVi19UkQIToqNQBVDAbVxS8x6VSjEStSlRPEAyJ7zXTsVuGlebO5OaSQEnU3kda3hVDB/Z2lpSiHpSrRJbNteOe+tU8qmgOZv9IlRBUT33rK6ovcVBMkj0V/1VlO/gKOS7LwCnX0NJjMpYSJBIvxI4jnX0/h7JSBAgAQkQBA0AGg7q+Z9juBDhXmylIsZjW1j+taYEbxLHZxJ/8Ac/rUDlNLB3wq/X961zfr+1cSwe8eMUoJQ+o2ngfjNE8LvdjMqj0hOWNUSLmO0BAOlFoqK3cfX9Drc0G3lQ5lQtspBC0pVnJACVEAqkfh179KREb/AGKGqWz/ACn61Mn7SnR2mUnwURQSpLydEaxKDlSFhZiZBB0jv1vQ/ZmIeUt5twHI2oJCpBzykGU8gAqDPGlNr7QEKbL6sOYCg3AIM5gVTfl0cedSM/aThhboXU8bBMexoHY8rAoPtbCpVqkG/Kg6PtDwR++tP/pqPwrZ/evCqgh4G/EEcDwiqsReZaCdBFUMZhENuKxZnMlsjn6DyioFb0YbgtR8EKPyqvi942FoUgpcIUI7P1otBQJ2E4cU6l15OZCp1FurITPmNPCmDEYBrpmB0abBy0A6gevGgeC24hpBQlpeXNKbpFhFjJ5/GosZvOS+0oNgZEr1UPvZdY5QfWowgoIbz7EbLCENoAczJShQnq6lRVzTGa3M86XthPqS4y6gFKivo1wZlSSAZEiTEn+WxvRB/epwgx0aTwOaY9qpYTbZQlI6pvnBiMxgpJFtDcGNb0Noe061mkAjxsRQ15DhmUhV7Tl0kmPEwPblSe1vu4BEIsI41ud+HOTfvTckxPTbGsYdZVJEXGWzcgTcacNfLyrGM6ZhIFiPuiCTxjhobUqHfdw/4fvW729jiQhQyddJUfEKUm3kBStC9Foub64ZWIQ22pSkFRSBCrSVpCu42IMH60dwOzGMO30bLaUDiREq71KiVExqaTn98FGMyWzFxJ/pWOb5uRon1/pTUkitjKm2NkZv2tahKkgFETzIkcxly+lLOI3aclkJE9InMBM6a8PDzJHCmj/a5RkONJUlQgwbx6UQwe32CUulK0JQFJuJutQVaJtrU4DaC9j7rIC1KWA4lCgmCJiUgyQbHtCQam3r2ClhCXmYRLgSUDsmQdOWmneaLbO23h1O4iHUDMtJTmOWf3SBx7xHlVnaj7DiEgutgZgrtp4C3HnHpVbVQmijuVhu0YsCCmDIEFUp9b+fcKN4dITjHLRmaSrzCsp9gmquE2zhGkBH7Q0IH4hQ9zeTDDFhfTJKOgKZEnrdIDHpNUlSQqG/MIg3oYdkJOJOIvngJF9E2sPNM3/EaGnfXCcHFHwQo/KtFb74bgFnwT9adoWBoqRlUGk9e/TXBpw/lHzqu5v1+Fk+ZFG5CwPpNarT+ppGH2gA6s/839K3Tv5/wf8Am/pRaDcvI6RWUmjfv/gf839Kyi0LfHycfcV1Fn+JCPZZPukVSJpg2LgUOMgLyJGcmVLgkgDmYgBQHmaY8BsTCpIWpxkECbLRaCZMTGp5T41jLUUXVHoafRy1EpWqZm7bCmiFBsr/AHSU6xeJNWtmbAbLC21lwFcpC0m4ykXIzAHrcL2q3jcU02hWVSDAm2U6i2h/tfiRlu4F5KkIKSIU2FCDynMBJmesT4isJajbPS0ek04RpHOtt7IxGEUAorKT2VgnKfQmD3TQsYlyYzq5azXZ/wB24gocyqSQTqNOfePHzpUx+5yEElsJUJzdoymIMQVTHrZVbR1lWTi1f6e93s4+SvspB/YMaTq2tRHcUs291Gkk7QXzB8q6js/ZiVYV9kONheIUpRhU5cyQnib+E0Kb+yl1UfvxB4hsH/7a0UkefKFOhIxWJUlWW2gPqkH51ZwTq1kiSISFWJ408bR+yl1a1LD0TAjop0SBr0ndOlV17jYjDlZjpAUJHVSRGUReefdTtCoQxtZz8SvzV6NprPE16vYy0nKtSEqGqVFUjxhJqVOxoN32RY8XOX/lxQBH+3qt3/rnWqsaYmTrFNmzN20pYdS82hbqkjol5nAGzc5uyAZseMi1qCv7p4kDqpSu+iVf9UUAD8NiitaUkmCRNMuOwcbPS+VqKk29XD/1Gl3A7PcbfbDjak9biLeulNm1kp/7KN7gjif8S9qKAS/248zXisWeMnxAqHC4VSzCde+Y1jl310DA7BwWRaHE9ZQJDipkH+HKYSAdBHiTStXRrDSlIRU4uNLeFGMW+VNYMSRmQ4D5PL76X3mVIUQqRBInnHEHlTK9s51LWBUtpxKeuklSFAAqXIBJGpEkc6ZkBlPEKIHCfamZ/D//AKxGIzHMIEcOs5x/N7ClvHAB5aeRNNBCTsTS4i8Hg6njQApnaSgaKM7SV+xrI16YDyy/WKX1i6qJ4c/9ydH/ABUn/TQ0hpmzT61AqniJ8zFQN4hZUQEgkSTYmw1JjQd9EdgYUraWACbiO+DeKZNgE4NbhQDmUkhRzfd7RSOrcG9uZqZTURbbE1b7gEwn9edXNhLU462FRClFJt/DPxitHsASVBpBKUmOFuIBVobcudWNisKadaKgLOZlAXgWnTjrVKmTVEG2c7T2VKo6s8OBP0of+2OmOuq9HN4XEuvJW2dJBCkrGpMaJPM0HxLOQgqsCJgSOY4gRcU6BGinXOK1n+Y0f3Glb60KJMtEiTOik/I0uDF84/X9qYdw3gMagSOslafbN/8AGgCptpKkEXIuoWJ4GhwfV+JXqaad9MJCSrk7/qT/AEpTTRRnpu4k4WfxH1NZUQrKZY2bWw2DLWXDE5kEwSswcxEgW65JAvpbjQrZWxnMQtKEESeJ0HeYGlOx3LwaEKUpeIXlBPabSLDuExUG6uRrDLWCEvZeqTFwADlAP83mRyrCdWjv6a/TdfH3Fjam7LrBVmUhWSJCSZ63KU99UGdmrXJAgAgXHE/0BPlT1i9pNPYd3pkp/aEohC0qIzCR2kiBIJ9KE7OyhKkmClRuD3R56iolJJ4OqMJ7Hu5Ajux1IIBUm97CiW7eASQVPJzNqEJACpJnXqjTUa0ROCZy5kpUFCY6xI9DJ96jwu7yXG0lOI6MqAJSUSPiKItbiNbdHS/Oipj8A3nhqG0jtAhRn1FrzrTPsHbZwwShCrHtpJJBAuSAT1YvBEAf6gB3WxCQQ3iGlTrcp8PumPWjOxMMGGcmI2eMQokytD0G/wCHrpItyrZyTPNVnYtnutuIC03H1qXEbNbcEKzDvQtaD6pIrl24u8Cm0FLgWhIJSM3aSJtm14annJi9dDY2tmEtpCxwhYj1inaHQq75bilbalpWp9IE5HiSpI49G5qP6XmuZYbd94rhlLS4IAC+o4DOiiLSD96QD3aV3JeOxhV2GUI8FuE+6AB5UnbU3VeLxdYIbmCQSTcchBt3fHWjchbWCN3duYrZTyW8az0bTx0StKkkjVSAkkIjqymYkzAmuk4/YWExjYUUJ6wlLiICvUa+dcq219nuIUsusvAkyVIcKokghWRRmBBICYHC9QbP3ixezR0LqXUSSUpUkQriejcGZBOvpw1ppp8Ca8hDeXdB3BnMJW2TZSdR3EE693oaGYlCVsKwqwcqrgtESYOaAFaHuNGdm7cd2iChjFvBQHWaWlUxzJRqP5YrHt08XJI6Bw8RmCT6KCRVE1TAOxdzsMq7bjxVwQ5lQSRqEZkBJPgqpMXs8NqKMriVjUOIJPdosHhqJq84ximU5F4MhGpyJzDxlGZM+NX9h7xNvgYbEgvJIIRmEOp/yq+8e4xPI1EoJ8lxnJATD7LaWB0rWHUn/I5/q6W0d4tpTFicOMSz0AI6ZBC221nqOZdMqwQUq11JHPnWmN3fWkywVLTHVKklKvMAEmPD0qirZi5QXCAtGnWWIvwgWnw1506SxQ98m8v7IQ9tbMl1fVLTs9ZtdhI1AJ0Pse6rrGNKsCrBJbUt4mMgBkSsETaw75tXQcbh8O4c7jXXiCtKiJnWQCmSeetTjdVBQHcM4gxzKs1o5ybWpXRrHRcv8kcPdwd0kGcxg9UjKeI7/GjQ2WpLZZSiVOBK4kSQYM30MCe6KazhQz0qApOZw2hSXAFyowIMSTNieFCsXij0jeYKzhvLeBmN72UbE99S52sEamk9OVNr8nZWwKyxI6BSZFzCjwERaD3/ABqw1tLrSoGCmTM6gE2EyL+tqJYnBuLSnokqChGbrIKf+ZXHuvwqgvBobWEuuS4JVAVPa5gpMaHjXNG3mQtzsFbR20kmUyCpN/ukKzfeP3v1fWqjTq1ZlCYiCRoJJ1PCjjmIzLIbQiTEkoF4mJMd8VNh14hKcoCBwsDpyHdE6zVuUUFbs2AHXXkpCwBliJgnxHv71f3YeQ88yFwpQzggpTEESDe06+gowpb6kqSITmBAgaSIEiLgcu4RFDtkbtOM5XClEiSFHPfKZsJCTHKtIaieCJx9rS7oaThQBZlr8g+VbrV0aSsNIBTJMACBH0qHCY5Y7YbJ/gSB8ZrZnGKKodDZQZEBu/cDJgjnVOlmyNPppSkkv+EzTxWAqEwqD71o9iFJMECDpYVEcc4AAlDCYFxkkA8YiLeVTu7S1yhAJF8yEwTw0HCT60nHA4aC3O2u5UO3sOLFy41sr6VlD3cIpSio5JJnVX0r2q3Pwc34OPkL7cxBDDpn7pGvO3zpXc2y4yQhATA5gmRYXuNIMeNUcK7iVno3eP3csGOahGnKiTmBKjJExPKCDzmIrCT9x7+hBrS+pq5vGXkdGrD4dJURLiEqCrEHio6xB8aiwO1VSAT1Zg8IE6+VqmweEI/dpSjiSSJJ1i4M+XtUzOw1qIhI9FfSpbV8HTGE9iz3+fgtuvnIohSiMpvcTb3qsHFZSka5YHpaieH2OeiWJyi6b9WTz6147wKFKxQATmBJiCSqZy2sZMi1THEiOqg/RV+S8nFR+uVeft5HE1ROJSedRuLHOrs83aF2NokyAM0+A9ZtRDBYp1BOQlCueo75gwbTqaQdrbWU1CUXUb34fr5VJsLe5xCwlyCk2kcPHuq1F1ZDq6O77p7cW6k55AkhKiBBjUKECDcac/OjeP2u20MykFQ0lGUj1JEfqJrmuwt4eiObKk+o18DRXaW/eHCUqcSzBkAqUTMajW/hV740JxdjUnbzSxIaX3QkKmYiMijzoPh3xjS6w6wjoMvWStKhJ4dVQEHS+txShi/tDwF/3eGP/pFfxBFe4bfp93qYTDPKTzbaDaB3lUCKG12QULWExK9l4xbXRqIHBRKS42TmSQrUaAT3HlFPn/5Awb6S24SlRHVSoiUkjQKABmeRM8q5V9puKU5iUZ1BSg3BhWbRShc+IMd1+NBxgElkOB9PSalBIGmkKKtfLhVxeLJfgeH8ajOQ3tElM9UKxDw8AShRPlFauKS06nGuvNKcbg5W0LhRuAVHKIMa8yJteudpSLHOEmZvm+Qoi7tQLs44VgxYDKLaXKuHeLUwDz+/GKDudtwoQokgJsEmT1dTaIN51roOyt/0usArMuWBCgkjvkx8BXH9pDI2EqSgEkwQsKOoP3SQU5SAD3VVY2iEgpukHXLM+UnWqslnaMRtQu2bYZVb/ELfCdejUmdbEfSgOO2stpKltOBElKkAOdU9rMlagEoWkzI70zSAMcypOTpMTc3JUAPO6jHgKYMDszDOIyB5xXVyiRoCItYDTmDUSa4ZpptxaaNsRtzEOqygMyrq9QJOus5SZOomauh5hShmCioGJKFWvziwmpdn7tNNdlTn5jHoDFFk4UCsXBPk21Jb3dE4wJSFQpNhmME3j50MQhh1aczQJJjMpAMTxJN4oglkVvkqPSj8/qZ0S4rANtgZSlV7pRAI750rbM0hw5W1ON5bZ7EHxESPLjUBzCtCo1S04rsFIxLzoygFKciswIHWvwJ4ioHcKFdqTBJAkgAnUgTbWp69FWBWTg0gzF+cmt1YYHUfGp616SmH0Nf2ccqzoQNE+1ehdaOPgUCPclZVUv8Af71lMQt7w4398FNqcBsFSoKH8pgHyNRLx7ybpUQD+I39qysrKMUzs1NWUMI0wzzigpwlJygmTMi33e/vqQ4hyEgOKzESRJi+keVZWUlFWzWevqKEKfKNyl9WqgkHVV59Ar5VFtHbgYyIZAJglYIOWeBEmb3me6srKUMzo06qNdPd3bXJWRvQk9vDoPeIB+HzqUbfwx1bWnzn515WV0bEeTuYGVldxFpKSfMgCfeD60R25hkBtN75eoMuoCjmJI/hIt3VlZT4EMe7ylrYaUmCoc+MH6iru0WVIQp15hgoSJhYCwO8AhRzHnxrKyud80bci9iN5W21AKwrYAghKEoRbrAnqphRuIB4pqu5vmpUIyfuxJIzQVSZ65AEkcLWFZWVvtVUZbs4FvaeOLzhWUpTYCEzAA8SST31AhSuHwB+NZWVSwSWOhW4RMeQSPgKP7I2WoDKWm1A8VAE+teVlQ2XFDAxu4ye0wjy/pVlG7OG/wABPqr61lZUbmabUXGth4ZOjSR5TV1phCdEgVlZRYUiUGvaysoAwV7FZWUAeRXgTWVlFiPS1XhTXlZRYUe15HdWVlAESlxwHv8AWq+J0kJzecfGsrKBFQtq4BMef0rKysosdH//2Q==",
             "Pembangunan instalasi Rumah Sakit Militer di Nusantara pada awal abad 19 adalah salah satu bagian dari strategi militer Belanda dalam rangka mendukung politik kolonialisme, untuk tetap mempertahankan tanah jakahan Nederlands Indie, yang dikarenakan berbagai faktor yang mempengaruhi. Hal ini juga merupakan salah satu alasan mengapa diperlukan adanya suatu Rumah Sakit' Lapangan serta tetap dipertahankannya instalasi Rumah Sakit Militer meskipun fasilitas pelayanan kesehatan baik Rumah Sakit Umum maupun Puskesmas sudah menyebar sampai ke pelosok pedesaan. Untuk mengetahui lebih jauh alasan mengapa Pemerintah Kolonial Belanda mendirikan marilah kita tengok sejenak lembaran sejarah, yang disarikan dari tulisan yang pernah dimuat dalam buku \"catur windu RSPAD Gatot Soebroto\" dan \"45 tahun RSPAD Gatot Soebroto\"",
             "Pusat Kesehatan Angkatan Darat\n"+
@@ -24,7 +25,9 @@ object HospitalData {
                     "Rumah Sakit Publik\n" +
                     "Jl. Abdul Rahman Saleh Raya No.24\n" +
                     "(021)3441008\n" +
-                    "-"
+                    "-",
+            "0213441008"
+
         ),
         arrayOf(
             "RSUD Tarakan",
@@ -36,7 +39,8 @@ object HospitalData {
                     "Rumah Sakit Publik\n" +
                     "Jl. Kyai Caringin No. 7,Gambir\n" +
                     "(021) 3503150\n" +
-                    "(021) 3810149"
+                    "(021) 3810149",
+            "0213503150"
         ),
         arrayOf(
             "RSAL Mintoharjo",
@@ -48,7 +52,8 @@ object HospitalData {
                     "Rumah Sakit Publik\n" +
                     "Jl. Bendungan Hilir No.17,Tanah Abang\n" +
                     "(021)5703081\n" +
-                    "-"
+                    "-",
+            "0215703081"
         ),
         arrayOf(
             "RSUD Cengkareng",
@@ -60,7 +65,8 @@ object HospitalData {
                     "Rumah Sakit Publik\n" +
                     "Jl. Bumi Cengkareng Indah No.1\n" +
                     "(021)54372874\n" +
-                    "-"
+                    "-",
+            "02154372874"
         ),
         arrayOf(
             "Rumah Sakit Pelni",
@@ -72,7 +78,8 @@ object HospitalData {
                     "Rumah Sakit Publik\n" +
                     "Jl. Ks. Tubun No.92 - 94,Slipi\n" +
                     "(021)5306901\n" +
-                    "-"
+                    "-",
+            "0215306901"
         ),
         arrayOf(
             "RSUD Pasar Minggu",
@@ -84,7 +91,8 @@ object HospitalData {
                     "Rumah Sakit Publik\n" +
                     "Jl. TB Simatupang No.1,Ps. Minggu\n" +
                     "(021)29059999\n" +
-                    "-"
+                    "-",
+            "02129059999"
         ),
         arrayOf(
             "RSUP Fatmawati",
@@ -96,7 +104,8 @@ object HospitalData {
                     "Rumah Sakit Publik\n" +
                     "Jl. RS Fatmawati, Cilandak\n" +
                     "(021)7501524\n" +
-                    "-"
+                    "-",
+            "0217501524"
         ),
         arrayOf(
             "RS Umum Bhayangkara Tk. I R. Said Sukanto",
@@ -108,7 +117,8 @@ object HospitalData {
                     "Rumah Sakit Publik\n" +
                     "Jl. Raya Bogor, Kramat jati\n" +
                     "(021)8093288\n" +
-                    "(021)8094005"
+                    "(021)8094005",
+            "0218093288"
         ),
         arrayOf(
             "RSKD Duren Sawit",
@@ -120,7 +130,8 @@ object HospitalData {
                     "Rumah Sakit Publik\n" +
                     "Jl. Duren Sawit Baru No.2,Duren Sawit\n" +
                     "(021)8628686\n" +
-                    "-"
+                    "-",
+            "0218628686"
         ),
         arrayOf(
             "RSUP Persahabatan",
@@ -132,7 +143,8 @@ object HospitalData {
                     "Rumah Sakit Publik\n" +
                     "Jalan Persahabatan Raya 1, JAKTIM\n" +
                     "(021)4891708\n" +
-                    "4711222"
+                    "4711222",
+            "0214891708"
         )
     )
 
@@ -146,6 +158,7 @@ object HospitalData {
             hospital.photo = position[2]
             hospital.overview = position[3]
             hospital.identity = position[4]
+            hospital.phone = position[5]
             list.add(hospital)
         }
         return list
