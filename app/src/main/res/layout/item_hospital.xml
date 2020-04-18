@@ -72,6 +72,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/hospital_detail"
+                android:layout_weight="1"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/btn_call"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hospital_call"
                 android:textSize="16sp"/>
         </LinearLayout>
     </RelativeLayout>
