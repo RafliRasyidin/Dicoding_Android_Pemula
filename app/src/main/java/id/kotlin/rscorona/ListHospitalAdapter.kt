@@ -1,6 +1,8 @@
 package id.kotlin.rscorona
 
+import android.annotation.SuppressLint
 import android.content.Intent
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -21,8 +23,9 @@ class ListHospitalAdapter(private val listHospital: ArrayList<Hospital>): Recycl
         return listHospital.size
     }
 
+    @SuppressLint("MissingPermission")
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, address, photo, overview, identity) = listHospital[position]
+        val (name, address, photo, overview, identity, phone) = listHospital[position]
 
 
         Glide.with(holder.itemView.context)
@@ -43,6 +46,12 @@ class ListHospitalAdapter(private val listHospital: ArrayList<Hospital>): Recycl
             moveDetail.putExtra(DetailHospital.EXTRA_OVERVIEW, overview)
             mContext.startActivity(moveDetail)
         }
+
+
+        holder.btnCall.setOnClickListener{
+            val dialPhoneIntent = Intent(Intent.ACTION_CALL, Uri.parse("tel:$phone"))
+            mContext.startActivity(dialPhoneIntent)
+        }
     }
 
     inner class ListViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
@@ -50,5 +59,6 @@ class ListHospitalAdapter(private val listHospital: ArrayList<Hospital>): Recycl
         var tvName: TextView = itemView.findViewById(R.id.tv_name_hospital)
         var tvAddress: TextView = itemView.findViewById(R.id.tv_address)
         var btnDetail: Button = itemView.findViewById(R.id.btn_detail)
+        var btnCall: Button = itemView.findViewById(R.id.btn_call)
     }
 }
